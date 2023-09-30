@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: src_tpch_sf1
-    database: dbt_raw
+    database: SNOWFLAKE_SAMPLE_DATA
     schema: tpch_sf1
     description: Our sample source for demonstration.
     tables:
